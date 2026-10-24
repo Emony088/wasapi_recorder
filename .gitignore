@@ -1,0 +1,29 @@
+# 构建产物
+dist/
+build/
+dist-test/
+build-test/
+build-test2/
+.pyinstaller/
+*.spec.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行时缓存与测试产物
+_records_test/
+_shots/
+*.log
+records/
+
+# 本机构建依赖（不使用 pip 的 --target 时不存在）
+_vendor/
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store
